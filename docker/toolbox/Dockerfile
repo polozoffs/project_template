@@ -1,10 +1,7 @@
 # from base image node
 FROM alpine
-
-WORKDIR /usr/node
-WORKDIR app
-
 RUN pwd
+CMD tail -f /dev/null
 
 # command executable and version
 ENTRYPOINT ["node"]
