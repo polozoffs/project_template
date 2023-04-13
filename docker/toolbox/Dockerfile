@@ -1,5 +1,5 @@
 # from base image node
-FROM node:8.11-slim
+FROM alpine
 
 WORKDIR /usr/node
 WORKDIR app
